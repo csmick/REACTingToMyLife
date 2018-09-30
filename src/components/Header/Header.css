@@ -1,0 +1,25 @@
+.navbar {
+    background-color: var(--dark-gray);
+    height: 60px;
+}
+
+.navbar-left {
+
+}
+
+.navbar-right {
+
+}
+
+.navbar-button {
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.navbar-button:hover {
+    color: var(--primary-cyan);
+}
