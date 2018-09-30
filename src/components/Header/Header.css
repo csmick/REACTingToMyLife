@@ -1,6 +1,9 @@
 .navbar {
     background-color: var(--dark-gray);
     height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-left {
