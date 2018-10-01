@@ -5,7 +5,13 @@ class Home extends React.Component {
     render() {
         return (
             <div className="background-gradient">
-                <div style={{height:"2000px"}}></div>
+                <div className="jumbotron">
+                    <h1>Cameron Smick</h1>
+                    <h3>Developer | Designer | Rock Climber</h3>
+                </div>
+                <div className="content container">
+
+                </div>
             </div>
         );
     }

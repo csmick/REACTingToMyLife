@@ -5,3 +5,27 @@
     background: linear-gradient(135deg, var(--primary-cyan) 0%,var(--primary-purple) 33%,var(--primary-red) 66%,var(--primary-yellow) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--primary-cyan), endColorstr=var(--primary-yellow),GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+
+.jumbotron {
+    color: white;
+    height: 20vh;
+    opacity: 1;
+    padding: 30vh 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 72px;
+    margin-bottom: 0px;
+}
+
+.content {
+    background: white;
+    height: 1000px;
+    border-radius: 10px;
+}
+
+.container {
+    margin: auto;
+    width: 80vw;
+}
