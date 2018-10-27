@@ -1,10 +1,11 @@
 import React from 'react';
+import Footer from '../../components/Footer/Footer.js';
 import './Home.css';
 
 class Home extends React.Component {
     render() {
         return (
-            <div className="background-gradient">
+            <div>
                 <div className="jumbotron">
                     <h1>Cameron Smick</h1>
                     <h3>Developer | Designer | Rock Climber</h3>

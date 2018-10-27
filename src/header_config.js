@@ -1,5 +1,6 @@
 const HEADER_CONTENT = {
-    "left": [
+    "left": [],
+    "center": [
         {
             "displayName": "Home",
             "url": "",
@@ -8,8 +9,6 @@ const HEADER_CONTENT = {
             "displayName": "Hobbies",
             "url": "",
         },
-    ],
-    "right": [
         {
             "displayName": "Portfolio",
             "url": "",
@@ -23,6 +22,7 @@ const HEADER_CONTENT = {
             "url": "",
         },
     ],
+    "right": [],
 }
 
 export default HEADER_CONTENT;

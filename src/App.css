@@ -9,17 +9,24 @@
 
 .App {
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 
 .flex-container {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: flex-start;
 }
 
 .flex-item {
     flex: 0 0 auto;
+}
+
+.background-gradient {
+    background: var(--primary-cyan); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, var(--primary-cyan) 0%, var(--primary-purple) 33%, var(--primary-red) 66%, var(--primary-yellow) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, var(--primary-cyan) 0%,var(--primary-purple) 33%,var(--primary-red) 66%,var(--primary-yellow) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, var(--primary-cyan) 0%,var(--primary-purple) 33%,var(--primary-red) 66%,var(--primary-yellow) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--primary-cyan), endColorstr=var(--primary-yellow),GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }

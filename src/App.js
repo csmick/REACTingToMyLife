@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import HEADER_CONTENT from './header_config.js'
 import Header from './components/Header/Header.js';
 import Home from './pages/Home/Home.js';
-import HEADER_CONTENT from './header_config.js';
+import Footer from './components/Footer/Footer.js';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +10,10 @@ class App extends Component {
         return (
             <div className="App">
                 <Header content={HEADER_CONTENT} />
-                <Home />
+                <div className="background-gradient">
+                    <Home />
+                    <Footer />
+                </div>
             </div>
         );
     }
